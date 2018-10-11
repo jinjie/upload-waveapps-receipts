@@ -24,6 +24,10 @@ composer install
 
 `./upload <directory or path to image>`
 
+### Configuration
+
+Copy .env.example to .env and edit the options
+
 ## Options
 
 View list of options

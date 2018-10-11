@@ -1,0 +1,23 @@
+{
+    "name": "jinjie/upload-waveapps-receipts",
+    "description": "Simple script to upload receipts by WaveApps email",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kong Jin Jie",
+            "email": "jinjie@swiftdev.sg"
+        }
+    ],
+    "require": {
+        "league/climate": "^3.4",
+        "nategood/commando": "^0.3.0",
+        "phpmailer/phpmailer": "^6.0",
+        "vlucas/phpdotenv": "^2.5"
+    },
+    "autoload": {
+        "files": [
+            "src/SwiftDevLabs/WaveApps/ReceiptUpload.php"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+#!/usr/bin/env php
+<?php
+
+require_once("vendor/autoload.php");
+
+$app = new Commando\Command();
+
+$app->option()
+    ->require()
+    ->describedAs('Directory or file of the receipts. Only accepts directory, PDF, jpeg, tif, bmp and png')
+    ->file();
+
+$app->option('d')
+    ->aka('debug')
+    ->describedAs('Do not actually send the emails but show which receipt image will be processed')
+    ->boolean();
+
+$fileName = $app[0];
+
+$uploader = new SwiftDevLabs\WaveApps\ReceiptUpload($fileName, [
+    'debug' => $app['debug'],
+]);
+$uploader->run();

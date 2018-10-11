@@ -6,7 +6,7 @@ https://support.waveapps.com/hc/en-us/articles/208622136-How-to-email-your-recei
 
 This script allows you to bulk email PDF and images to Wave. Saves tons of time by manually uploading using browser or mobile app.
 
-## How to use
+## Insallation
 
 ### Composer (Preferred)
 
@@ -19,3 +19,10 @@ git clone https://github.com/jinjie/upload-waveapps-receipts.git
 cd upload-waveapps-receipts
 composer install
 ```
+
+## Usage
+
+`./upload <directory or path to image>`
+
+## Options
+

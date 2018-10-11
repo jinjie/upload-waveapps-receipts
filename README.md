@@ -26,3 +26,6 @@ composer install
 
 ## Options
 
+View list of options
+
+`./upload --help`

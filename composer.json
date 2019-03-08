@@ -12,8 +12,8 @@
     "require": {
         "league/climate": "^3.4",
         "nategood/commando": "^0.3.0",
-        "phpmailer/phpmailer": "^6.0",
-        "vlucas/phpdotenv": "^2.5"
+        "phpmailer/phpmailer": "^6.0.7",
+        "vlucas/phpdotenv": "^2.6"
     },
     "autoload": {
         "files": [
